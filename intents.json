@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "¿Cómo estás?",
+        "¿Hay alguien?",
+        "Hey"
+      ],
+      "responses": [
+        "Hola :-)",
+        "¡Hola! Gracias por visitarnos.",
+        "Hola, ¿en qué puedo ayudarte?",
+        "Hola, ¿cómo puedo asistirte?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Chao"
+      ],
+      "responses": [
+        "Hasta luego, gracias por visitarnos.",
+        "¡Que tengas un buen día!",
+        "¡Adiós! Vuelve pronto."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Te lo agradezco",
+        "Muchas gracias",
+        "Muy amable"
+      ],
+      "responses": [
+        "¡Encantado de ayudarte!",
+        "¡A tu servicio!",
+        "De nada, un placer."
+      ]
+    },
+    {
+      "tag": "productos",
+      "patterns": [
+        "¿Qué productos tienen?",
+        "¿Qué tipo de artículos venden?",
+        "¿Qué ofrecen?",
+        "¿Qué productos están disponibles?"
+      ],
+      "responses": [
+        "Vendemos café y té.",
+        "Ofrecemos una variedad de cafés y tés."
+      ]
+    },
+    {
+      "tag": "pagos",
+      "patterns": [
+        "¿Aceptan tarjetas de crédito?",
+        "¿Puedo pagar con Paypal?",
+        "¿Solo aceptan efectivo?",
+        "¿Aceptan VISA o Mastercard?"
+      ],
+      "responses": [
+        "Aceptamos VISA, Mastercard y Paypal.",
+        "Aceptamos las principales tarjetas de crédito y Paypal."
+      ]
+    },
+    {
+      "tag": "envío",
+      "patterns": [
+        "¿Cuánto tarda la entrega?",
+        "¿Cuánto tiempo tarda el envío?",
+        "¿Cuándo recibiré mi pedido?"
+      ],
+      "responses": [
+        "El envío tarda de 2 a 4 días.",
+        "La entrega suele tardar entre 2 y 4 días."
+      ]
+    },
+    {
+      "tag": "divertido",
+      "patterns": [
+        "¡Cuéntame un chiste!",
+        "Dime algo gracioso.",
+        "¿Sabes algún chiste?"
+      ],
+      "responses": [
+        "¿Por qué el libro de matemáticas está deprimido? ¡Porque tiene demasiados problemas!",
+        "¿Por qué los pájaros no usan Facebook? ¡Porque ya tienen Twitter!"
+      ]
+    },
+    {
+      "tag": "horarios",
+      "patterns": [
+        "¿Cuáles son sus horarios?",
+        "¿A qué hora abren?",
+        "¿Cuándo están abiertos?",
+        "¿Qué horarios tienen?"
+      ],
+      "responses": [
+        "Estamos abiertos de lunes a viernes de 9 a.m. a 6 p.m.",
+        "Nuestro horario es de 9 a.m. a 6 p.m. de lunes a viernes."
+      ]
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": [
+        "¿Dónde están ubicados?",
+        "¿Cuál es su dirección?",
+        "¿Dónde los puedo encontrar?"
+      ],
+      "responses": [
+        "Estamos ubicados en la calle principal, número 123.",
+        "Nos puedes encontrar en la calle principal, número 123, en el centro de la ciudad."
+      ]
+    },
+    {
+      "tag": "soporte",
+      "patterns": [
+        "Necesito ayuda con mi pedido",
+        "Mi producto llegó defectuoso",
+        "¿Cómo puedo contactar con soporte?",
+        "Quiero hacer una reclamación"
+      ],
+      "responses": [
+        "Puedes contactar con nuestro equipo de soporte enviando un correo a soporte@empresa.com.",
+        "Nuestro equipo de soporte está disponible en soporte@empresa.com."
+      ]
+    }
+  ]
+}
