@@ -8,13 +8,18 @@
         "Buenas tardes",
         "¿Cómo estás?",
         "¿Hay alguien?",
-        "Hey"
+        "Hey",
+        "como esta",
+        "jeje",
+        "kisama",
+        "insecto"
       ],
       "responses": [
         "Hola :-)",
         "¡Hola! Gracias por visitarnos.",
         "Hola, ¿en qué puedo ayudarte?",
-        "Hola, ¿cómo puedo asistirte?"
+        "Hola, ¿cómo puedo asistirte?",
+        "bienvenido a chat jdvpl jejej"
       ]
     },
     {
@@ -23,6 +28,7 @@
         "Adiós",
         "Hasta luego",
         "Nos vemos",
+        "malditos",
         "Chao"
       ],
       "responses": [
@@ -51,11 +57,14 @@
         "¿Qué productos tienen?",
         "¿Qué tipo de artículos venden?",
         "¿Qué ofrecen?",
-        "¿Qué productos están disponibles?"
+        "¿Qué productos están disponibles?",
+        "productos"
       ],
       "responses": [
-        "Vendemos café y té.",
-        "Ofrecemos una variedad de cafés y tés."
+        "Vendemos sotware a la lata jajaja.",
+        "Ofrecemos una variedad de cafés y tés.",
+        "muchas tarjetas de creédito.",
+        "muchas maquinas"
       ]
     },
     {
@@ -64,7 +73,8 @@
         "¿Aceptan tarjetas de crédito?",
         "¿Puedo pagar con Paypal?",
         "¿Solo aceptan efectivo?",
-        "¿Aceptan VISA o Mastercard?"
+        "¿Aceptan VISA o Mastercard?",
+        "pagos"
       ],
       "responses": [
         "Aceptamos VISA, Mastercard y Paypal.",
@@ -76,7 +86,8 @@
       "patterns": [
         "¿Cuánto tarda la entrega?",
         "¿Cuánto tiempo tarda el envío?",
-        "¿Cuándo recibiré mi pedido?"
+        "¿Cuándo recibiré mi pedido?",
+        "envío"
       ],
       "responses": [
         "El envío tarda de 2 a 4 días.",
@@ -88,11 +99,21 @@
       "patterns": [
         "¡Cuéntame un chiste!",
         "Dime algo gracioso.",
-        "¿Sabes algún chiste?"
+        "¿Sabes algún chiste?",
+        "algo divertido",
+        "chiste",
+        "quiero reírme",
+        "más bromas"
       ],
       "responses": [
         "¿Por qué el libro de matemáticas está deprimido? ¡Porque tiene demasiados problemas!",
-        "¿Por qué los pájaros no usan Facebook? ¡Porque ya tienen Twitter!"
+        "¿Por qué los pájaros no usan Facebook? ¡Porque ya tienen Twitter!",
+        "¿Cuál es el colmo de Aladdín? Tener mal genio.",
+        "Si se muere una pulga, ¿a dónde va? Al pulgatorio.",
+        "¿Cómo se dice pelo sucio en chino? Chin cham pu.",
+        "¿Qué le dice una impresora a otra? ¿Esa hoja es tuya o es una impresión mía?",
+        "¿Por qué los esqueletos no pelean entre sí? Porque no tienen agallas.",
+        "¿Qué le dice un gusano a otro gusano? Voy a dar una vuelta a la manzana."
       ]
     },
     {
@@ -101,11 +122,13 @@
         "¿Cuáles son sus horarios?",
         "¿A qué hora abren?",
         "¿Cuándo están abiertos?",
-        "¿Qué horarios tienen?"
+        "¿Qué horarios tienen?",
+        "horarios"
       ],
       "responses": [
         "Estamos abiertos de lunes a viernes de 9 a.m. a 6 p.m.",
-        "Nuestro horario es de 9 a.m. a 6 p.m. de lunes a viernes."
+        "Nuestro horario es de 9 a.m. a 6 p.m. de lunes a viernes.",
+        "envia un correo a horarios@empresa.com para programar tu horario."
       ]
     },
     {
@@ -113,7 +136,8 @@
       "patterns": [
         "¿Dónde están ubicados?",
         "¿Cuál es su dirección?",
-        "¿Dónde los puedo encontrar?"
+        "¿Dónde los puedo encontrar?",
+        "ubicacion"
       ],
       "responses": [
         "Estamos ubicados en la calle principal, número 123.",
@@ -126,11 +150,108 @@
         "Necesito ayuda con mi pedido",
         "Mi producto llegó defectuoso",
         "¿Cómo puedo contactar con soporte?",
-        "Quiero hacer una reclamación"
+        "Quiero hacer una reclamación",
+        "soporte",
+        "contacto"
       ],
       "responses": [
         "Puedes contactar con nuestro equipo de soporte enviando un correo a soporte@empresa.com.",
         "Nuestro equipo de soporte está disponible en soporte@empresa.com."
+      ]
+    },
+    {
+      "tag": "clima",
+      "patterns": [
+        "¿Cómo está el clima?",
+        "¿Va a llover hoy?",
+        "¿Qué tiempo hará mañana?",
+        "clima"
+      ],
+      "responses": [
+        "Hoy el clima está soleado con una ligera brisa.",
+        "Parece que lloverá en la tarde, lleva paraguas.",
+        "Mañana se espera un día nublado con posibilidad de lluvias."
+      ]
+    },
+    {
+      "tag": "reservaciones",
+      "patterns": [
+        "¿Puedo hacer una reservación?",
+        "Quiero reservar una mesa",
+        "reservación",
+        "Quiero reservar un turno"
+      ],
+      "responses": [
+        "Para hacer una reservación, puedes llamarnos o hacerlo en nuestro sitio web.",
+        "Las reservaciones están abiertas de 10 a.m. a 9 p.m. todos los días."
+      ]
+    },
+    {
+      "tag": "quejas",
+      "patterns": [
+        "Quiero hacer una queja",
+        "Tengo una reclamación",
+        "Estoy insatisfecho con mi pedido",
+        "Quiero reportar un problema",
+        "quejas"
+      ],
+      "responses": [
+        "Lamentamos que tengas una mala experiencia, puedes enviarnos tu queja a quejas@empresa.com.",
+        "Por favor, comunícate con nuestro servicio de atención al cliente para resolver tu problema."
+      ]
+    },
+    {
+      "tag": "felicitaciones",
+      "patterns": [
+        "Felicidades",
+        "Buen trabajo",
+        "Me encanta el servicio",
+        "Sigan así",
+        "Excelente atención"
+      ],
+      "responses": [
+        "¡Gracias por tus palabras! Nos motivan a seguir mejorando.",
+        "¡Estamos felices de haberte ayudado!",
+        "¡Tus felicitaciones significan mucho para nosotros!"
+      ]
+    },
+    {
+      "tag": "monedas",
+      "patterns": [
+        "¿Puedo pagar en dólares?",
+        "¿Aceptan pagos en euros?",
+        "¿Puedo pagar con criptomonedas?",
+        "monedas"
+      ],
+      "responses": [
+        "Aceptamos pagos en dólares y euros.",
+        "Por el momento, no aceptamos criptomonedas."
+      ]
+    },
+    {
+      "tag": "seguimiento",
+      "patterns": [
+        "Quiero hacer seguimiento de mi pedido",
+        "¿Dónde está mi paquete?",
+        "¿Puedo rastrear mi compra?",
+        "seguimiento"
+      ],
+      "responses": [
+        "Puedes rastrear tu pedido usando el número de seguimiento que te enviamos por correo.",
+        "Ingresa tu número de pedido en nuestro sitio web para hacer seguimiento."
+      ]
+    },
+    {
+      "tag": "sugerencias",
+      "patterns": [
+        "Quiero dar una sugerencia",
+        "Tengo una idea para mejorar",
+        "¿Dónde puedo dejar mis sugerencias?",
+        "sugerencias"
+      ],
+      "responses": [
+        "Nos encantaría escuchar tu sugerencia, por favor envíala a sugerencias@empresa.com.",
+        "Puedes dejarnos tus ideas en nuestra sección de sugerencias en el sitio web."
       ]
     }
   ]
